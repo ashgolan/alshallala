@@ -1,10 +1,10 @@
 import { model, Schema } from "mongoose";
 
 const transSchema = new Schema({
+  owner: { type: String, required: true },
   year: { type: String, required: true },
-  firstRead: { type: Number, default: 0 },
-  secondRead: { type: Number, default: 0 },
-  thirdRead: { type: Number, default: 0 },
+  data: { type: Array },
+  price: { type: Array },
   message: { type: Array },
 });
 

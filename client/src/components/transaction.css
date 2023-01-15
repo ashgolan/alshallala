@@ -1,0 +1,18 @@
+.transaction-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title-welcome {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.title-welcome > label {
+  padding: 3% 0;
+  color: white;
+}
+
+.transaction-container > select {
+  padding: 1% 10%;
+}

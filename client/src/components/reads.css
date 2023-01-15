@@ -1,0 +1,17 @@
+.reads-container > div {
+  margin: 2% 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+.reads-container > div > label {
+  width: 17%;
+  text-align: right;
+  color: gold;
+  padding: 1%;
+  text-align: center;
+  padding: 2%;
+  background-color: rgb(41, 40, 40);
+  border-radius: 1rem;
+}

@@ -5,7 +5,6 @@ const userSchema = new Schema({
   lastName: { type: String, required: true },
   Phone: { type: String, default: "0000000000" },
   userID: { type: String, default: "000000000" },
-  waterTrans: { type: Array },
 });
 
 export const User = model("User", userSchema);
